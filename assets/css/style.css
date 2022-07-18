@@ -1,0 +1,39 @@
+.todoList{
+    background-color: rgb(206, 204, 204);
+    margin: 10%;
+
+}
+.titulo{
+    margin: 10px;
+}
+.inputTarea{
+    width: 100%;
+    margin: 10px;
+}
+.tareaInput{
+    width: 85%;
+}
+.agregarTarea{
+    width: 10%;
+    background-color: green;
+    border-radius: 10%;
+    color: white;
+    border: 0 solid;
+}
+
+.resumenTarea{
+    display: flex;
+    margin: 10px;
+
+}
+.tareaResumen, .tareaLista{
+    width: 50%;
+    margin: 10px;
+
+}
+.tablaTareas{
+    text-align: left;
+}
+.fa-solid{
+    color: RED;
+}

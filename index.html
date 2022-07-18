@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Todo List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+
+</head>
+
+<body>
+    <div class="todoList">
+        <div class="titulo">
+            <h2>Todo List</h2>
+            <hr>
+        </div>
+        <div class="inputTarea">
+            <p>Nueva Tarea</p>
+            <input class="tareaInput" type="text">
+            <button class="agregarTarea">Agregar</button>
+        </div>
+        <div class="resumenTarea">
+            <div class="tareaResumen">
+                <p>Total: <span class="total"></span></p>
+                <p>Realizadas: <span class="realizada">0</span></p>
+            </div>
+            <div class="tareaLista">
+                <table class="tablaTareas">
+                    <thead>
+                        <th class="id">ID</th>
+                        <th>Tarea</th>
+                        <th class="estado">Estado</th>
+                    </thead>
+                    <tbody class="cuerpoTareas"></tbody>  
+                                     
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src='assets/js/index.js'></script>
+    <script src="https://kit.fontawesome.com/0c803420e4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
